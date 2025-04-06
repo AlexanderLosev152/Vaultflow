@@ -466,7 +466,7 @@ address {
   grid-column: 1/3;
 }
 .footer {
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 .footer__wrapper a,
 .footer__wrapper address {
