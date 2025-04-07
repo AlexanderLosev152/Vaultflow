@@ -261,6 +261,7 @@ address {
 }
 .nav ul {
   gap: 2rem;
+  transition: top 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 @media (max-width: 36rem) {
   .nav ul {
@@ -268,7 +269,8 @@ address {
     top: -100%;
     right: 0;
     left: 0;
-    transition: top 0.5s, background 0.5s;
+    opacity: 0;
+    transition: top 0.5s ease-in-out, background 0.5s ease-in-out;
   }
 }
 .nav ul li a {
@@ -289,6 +291,8 @@ address {
   padding-top: 3rem;
   background: #0b0121;
   height: 100vh;
+  transition: top 0.5s ease-in-out, background 0.5s ease-in-out;
+  opacity: 1;
 }
 .nav.open ul a {
   font-size: 1.5rem;
@@ -314,7 +318,7 @@ address {
 }
 .mobile.open {
   margin-top: 0.5rem;
-  transition: transform 0.5s;
+  transition: top 0.5s ease-in-out, background 0.5s ease-in-out;
 }
 .mobile.open span:nth-child(1) {
   transform: rotate(-45deg);
